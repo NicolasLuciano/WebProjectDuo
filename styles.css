@@ -1,0 +1,33 @@
+.tarjeta{
+position: fixed;
+width: 300px;
+height: 500px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+background: radial-gradient(circle at center, #22366a 0%, #010b20 55%);
+background-size: 150% 150%;
+background-position: center;
+animation: latido 4s ease infinite;
+}
+
+@keyframes latido {
+    0% {
+        background-size: 150% 150%;
+    }
+    50% {
+        background-size: 600% 600%;
+    }
+    100% {
+        background-size: 150% 150%;
+    }
+}
+
+.windImg {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
