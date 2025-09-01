@@ -1,3 +1,18 @@
+body {
+    margin: 0;
+    background-color: #9F836A;
+}
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: #34434B;
+}
+
+.menu {
+    max-width: 2%;
+    height: 0 auto;
+}
+
 .tarjeta{
 position: fixed;
 width: 300px;
@@ -30,4 +45,9 @@ animation: latido 4s ease infinite;
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
 }
