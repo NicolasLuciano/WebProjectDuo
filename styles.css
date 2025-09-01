@@ -12,7 +12,10 @@ nav {
     max-width: 2%;
     height: 0 auto;
 }
-
+.section1 {
+    display: flex;
+    justify-content: center;
+}
 .tarjeta{
 position: fixed;
 width: 300px;
@@ -47,7 +50,3 @@ animation: latido 4s ease infinite;
     margin: 0 auto;
 }
 
-.section1 {
-    display: flex;
-    justify-content: center;
-}
