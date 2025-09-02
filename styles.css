@@ -45,7 +45,7 @@ nav {
     flex-wrap: wrap;
 }
 
-.cajaTarjetas {
+.cardBox {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -55,86 +55,72 @@ nav {
     background-color: rgba(0,0,0,0.2);
 }
 
-.tarjeta{
-width: 30vh;
-height: 50vh;
-margin-top: 0.5%;
-margin-bottom: 0.5%;
+.card{
+    width: 30vh;
+    height: 50vh;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-background: linear-gradient(42deg, #8ba4e3 0%,#2b3b62 50%,#010714 100%);
-background-size: 400% 400%;
-background-position: 0%, 50%;
-animation: latido 8s ease infinite;
+    background-position: 0% 50%;
+    animation: latido 7s ease infinite;
 
-border-radius: 4%;
-box-shadow:
-    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
-    rgba(0, 0, 0, 0.06) 0px 2px 1px,
-    rgba(0, 0, 0, 0.09) 0px 4px 2px,
-    rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px,
-    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 4%;
+    box-shadow:
+        rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px,
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
 
-.tarjeta2{
-width: 30vh;
-height: 50vh;
-margin-top: 0.5%;
-margin-bottom: 0.5%;
-
-display: flex;
-justify-content: center;
-align-items: center;
-
-background: linear-gradient(42deg,#c8796d 0%, #79211b 55%, #2b0803 100%);
-background-size: 400% 400%;
-background-position: 0%, 50%;
-animation: latido 8s ease infinite;
-
-border-radius: 4%;
-box-shadow:
-    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
-    rgba(0, 0, 0, 0.06) 0px 2px 1px,
-    rgba(0, 0, 0, 0.09) 0px 4px 2px,
-    rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px,
-    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+#windrunner-card {
+    background: linear-gradient(42deg, #8ba4e3 0%,#2b3b62 50%,#010714 100%);
+    background-size: 400% 400%;
+}
+#lightweaver-card {
+    background: linear-gradient(42deg,#BD3246 0%, #8D0033 55%, #740021 100%);
+    background-size: 400% 400%;
+}
+#edgedancer-card {
+    background: linear-gradient(42deg, #1F7D53 0%,#27391C  55%, #18230F 100%);
+    background-size: 400% 400%;
+}
+#truthwatcher-card {
+    background: linear-gradient(42deg, #f0ece1 0%, #999996 55%,#535151 100%);
+    background-size: 400% 400%;
+}
+#bondsmith-card {
+    background: linear-gradient(42deg, #FAD59A 0%, #E9A319 55%,#92561b 100%);
+    background-size: 400% 400%;
+}
+#elsecaller-card {
+    background: linear-gradient(42deg, #8a95d3 0%, #3B38A0 55%,#101c5f 100%);
+    background-size: 400% 400%;
+}
+#skybreaker-card {
+    background: linear-gradient(42deg, #DDDAD0 0%, #575756 55%,#1a1919 100%);
+    background-size: 400% 400%;
+}
+#stoneward-card {
+    background: linear-gradient(42deg,#e6a862 0%, #c46120 55%, #7B4019 100%);
+    background-size: 400% 400%;
 }
 
-.tarjeta3{
-width: 30vh;
-height: 50vh;
-margin-top: 0.5%;
-margin-bottom: 0.5%;
-
-display: flex;
-justify-content: center;
-align-items: center;
-
-background: linear-gradient(42deg, #8ba4e3 0%,#2b3b62 50%,#010714 100%);
-background-size: 400% 400%;
-background-position: 0%, 50%;
-animation: latido 8s ease infinite;
-
-border-radius: 4%;
-box-shadow:
-    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
-    rgba(0, 0, 0, 0.06) 0px 2px 1px,
-    rgba(0, 0, 0, 0.09) 0px 4px 2px,
-    rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px,
-    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+#willshaper-card {
+    background: linear-gradient(42deg, #745880 0%,#584a79  55%, #441752 100%);
+    background-size: 400% 400%;
+}
+#dustbringer-card {
+    background: linear-gradient(42deg,#c8796d 0%, #79211b 55%, #2b0803 100%);
+    background-size: 400% 400%;
 }
 
 @keyframes latido {
@@ -149,7 +135,7 @@ box-shadow:
     }
 }
 
-.windImg {
+.cardImg {
     max-width: 80%;
     height: auto;
     display: block;
@@ -157,7 +143,7 @@ box-shadow:
     filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 1));
     transition: 1.4s;
 }
-.windImg:hover {
+.cardImg:hover {
     
     transform: scale(140%);
     transition: 1.4s;
