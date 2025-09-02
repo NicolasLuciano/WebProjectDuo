@@ -8,14 +8,15 @@
 </head>
 <body>
     <header>
-        <nav>   
-            <ul>
-                <li><a href="index.html"><img src="corredores.png" alt="Home" class="menu"></a></li>
-                <li><select>
-                    <option><a href="windrunners.html">Windrunner</a></option>
-                    <option><a href="lightweavers.html">Lightweavers</a></option>
-                </select></li>
-            </ul>
+        <nav>
+            <a href="index.html"><img src="corredores.png" alt="Home" class="menu"></a>   
+            <select onchange="if (this.value) window.location.href = this.value;">
+                <option>Ordenes</option>
+                <option value="windrunners.html">Windrunner</option>
+                <option value="lightweavers.html">Lightweavers</option>
+            </select>
+                 
+              
         </nav>
     </header>
 </body>

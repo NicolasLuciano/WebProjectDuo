@@ -11,8 +11,8 @@
     <header>
         <nav>
             <a href="index.html"><img src="corredores.png" alt="Home" class="menu"></a>   
-            <select onchange="if (this.value) window.open(this.value, '_blank');">
-                <option>Elegi una orden..</option>
+            <select onchange="if (this.value) window.location.href = this.value;" class="selector">
+                <option>Ordenes</option>
                 <option value="windrunners.html">Windrunner</option>
                 <option value="lightweavers.html">Lightweavers</option>
             </select>

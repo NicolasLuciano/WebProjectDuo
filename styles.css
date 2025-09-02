@@ -2,7 +2,13 @@ body {
     margin: 0;
     background-color: #9F836A;
 }
+
+header{
+    margin-bottom: 100px;
+}
+
 nav {
+    display: flex;
     width: 100%;
     position: fixed;
     background-color: #34434B;
@@ -11,14 +17,23 @@ nav {
     height: 7%;
 }
 
-header{
-    margin-bottom: 100px;
+.menu {
+    display: flex;
+    justify-content: left;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10%;
+
+}
+.selector {
+    background: rgba(0,0,0, 0.2);
+    border: none;
+    display:flex;
+    justify-content: left;
+    text-align: center;
+    font-size: larger;
 }
 
-.menu {
-    max-width: 2%;
-    height: 0 auto;
-}
 .section1 {
     display: flex;
     justify-content: space-around;
