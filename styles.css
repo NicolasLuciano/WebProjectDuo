@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #9F836A;
+    background-color: #E3DBC5;
 }
 
 header{
@@ -37,9 +37,11 @@ nav {
 .section1 {
     display: flex;
     justify-content: space-around;
+    
+    background-color: rgba(0,0,0,0.2);
 }
-.tarjeta{
 
+.tarjeta{
 width: 300px;
 height: 500px;
 
@@ -47,17 +49,25 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-background: radial-gradient(circle at center, #22366a 0%, #010b20 55%);
-background-size: 150% 150%;
-background-position: center;
-animation: latido 4s ease infinite;
+background: linear-gradient(42deg, #8ba4e3 0%,#2b3b62 50%,#010714 100%);
+background-size: 400% 400%;
+background-position: 0%, 50%;
+animation: latido 8s ease infinite;
 
 border-radius: 4%;
-box-shadow: -8px 8px 5px rgb(42, 46, 51);
+box-shadow:
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
 }
 
 .tarjeta2{
-
 width: 300px;
 height: 500px;
 
@@ -65,25 +75,33 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-background: radial-gradient(circle at center, #521309 0%, #c01f14 55%);
-background-size: 150% 150%;
-background-position: center;
-animation: latido 4s ease infinite;
+background: linear-gradient(42deg,#c8796d 0%, #79211b 55%, #2b0803 100%);
+background-size: 400% 400%;
+background-position: 0%, 50%;
+animation: latido 8s ease infinite;
 
 border-radius: 4%;
-box-shadow: -8px 8px 5px rgb(42, 46, 51);
+box-shadow:
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 
 @keyframes latido {
     0% {
-        background-size: 150% 150%;
+        background-position: 0%, 50%;
     }
     50% {
-        background-size: 600% 600%;
+        background-position: 100%, 50%;
     }
     100% {
-        background-size: 150% 150%;
+        background-position: 0% 50%;
     }
 }
 
@@ -92,5 +110,18 @@ box-shadow: -8px 8px 5px rgb(42, 46, 51);
     height: auto;
     display: block;
     margin: 0 auto;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 1));
+    transition: 1.4s;
+}
+.windImg:hover {
+    
+    transform: scale(140%);
+    transition: 1.4s;
 }
 
+
+
+
+footer {
+
+}
