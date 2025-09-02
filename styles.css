@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     background-color: #E3DBC5;
@@ -23,8 +24,9 @@ nav {
     box-sizing: border-box;
     height: 100%;
     padding: 10%;
-
+    margin-inline: 10px;
 }
+
 .selector {
     background: rgba(0,0,0, 0.2);
     border: none;
@@ -38,19 +40,25 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-inline: 100px;
+    flex-wrap: wrap;
 }
 
 .cajaTarjetas {
     display: flex;
     justify-content: space-around;
     align-items: center;
+     flex: 1 1 100%;
     width: 90%;
+    margin: 20px;
     background-color: rgba(0,0,0,0.2);
 }
 
 .tarjeta{
 width: 30vh;
 height: 50vh;
+margin-top: 0.5%;
+margin-bottom: 0.5%;
 
 display: flex;
 justify-content: center;
@@ -77,6 +85,8 @@ box-shadow:
 .tarjeta2{
 width: 30vh;
 height: 50vh;
+margin-top: 0.5%;
+margin-bottom: 0.5%;
 
 display: flex;
 justify-content: center;
@@ -126,9 +136,3 @@ box-shadow:
     transition: 1.4s;
 }
 
-
-
-
-footer {
-
-}
