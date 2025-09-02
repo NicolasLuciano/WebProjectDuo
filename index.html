@@ -1,57 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebProject-Cosmere</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <a href="index.html"><img src="imagenes/ORDENES RADIANTES.png" alt="Home" class="menu" /></a>
-            <select onchange="if (this.value) window.location.href = this.value;" class="selector">
-                <option>Ordenes</option>
-                <option value="windrunners.html">Windrunner</option>
-                <option value="lightweavers.html">Lightweavers</option>
-            </select>
-        </nav>
+      <nav>
+
+        <a href="index.html">
+            <img src="imagenes/ORDENES RADIANTES.png" alt="Home" class="imgMenu" />
+        </a>
+
+        <div class="menuCont" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <div id="menu" class="menu-links">
+          <a href="#">Windrunner</a>
+          <a href="#">skibidi</a>
+          <a href="#">skibidi</a>
+          <a href="#">skibidi</a>
+          <a href="#">skibidi</a>
+          <a href="#">skibidi</a>
+          <a href="#">skibidi</a>
+          <a href="#">skibidi</a>
+          <a href="#">skibidi</a>
+          <a href="#">skibidi</a>
+        </div>
+      </nav>
     </header>
 
     <section class="section1">
-        <!--2 tarjetas-->
-        <div class="cajaTarjetas">
-            <div class="tarjeta">
-                <a href="windrunners.html">
-                    <img src="imagenes/corredores.png" alt="windrunner" class="windImg" />
-                </a>
-            </div>
-            <div class="tarjeta2">
-                <a href="windrunners.html">
-                    <img src="imagenes/tejedores.png" alt="windrunner" class="windImg" />
-                </a>
-            </div>
+      <!--2 tarjetas-->
+      <div class="cajaTarjetas">
+        <div class="tarjeta">
+          <a href="windrunners.html">
+            <img
+              src="imagenes/corredores.png"
+              alt="windrunner"
+              class="windImg"
+            />
+          </a>
         </div>
-        <!--2 tarjetas-->
-        <div class="cajaTarjetas">
-            <div class="tarjeta">
-                <a href="windrunners.html">
-                    <img src="imagenes/danzantes.png" alt="windrunner" class="windImg" />
-                </a>
-            </div>
-            <div class="tarjeta2">
-                <a href="windrunners.html">
-                    <img src="imagenes/vigilantes.png" alt="windrunner" class="windImg" />
-                </a>
-            </div>
+        <div class="tarjeta2">
+          <a href="windrunners.html">
+            <img
+              src="imagenes/tejedores.png"
+              alt="windrunner"
+              class="windImg"
+            />
+          </a>
         </div>
+      </div>
+      <!--2 tarjetas-->
+      <div class="cajaTarjetas">
+        <div class="tarjeta">
+          <a href="windrunners.html">
+            <img
+              src="imagenes/danzantes.png"
+              alt="windrunner"
+              class="windImg"
+            />
+          </a>
+        </div>
+        <div class="tarjeta2">
+          <a href="windrunners.html">
+            <img
+              src="imagenes/vigilantes.png"
+              alt="windrunner"
+              class="windImg"
+            />
+          </a>
+        </div>
+      </div>
     </section>
 
-    <footer>
-        
-    </footer>
-</body>
+    <footer></footer>
 
+    <script src="script.js"></script>
+  </body>
 </html>
