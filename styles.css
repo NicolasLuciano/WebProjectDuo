@@ -6,6 +6,13 @@ nav {
     width: 100%;
     position: fixed;
     background-color: #34434B;
+    top: 0;
+    left: 0;
+    height: 7%;
+}
+
+header{
+    margin-bottom: 100px;
 }
 
 .menu {
@@ -14,10 +21,10 @@ nav {
 }
 .section1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .tarjeta{
-position: fixed;
+
 width: 300px;
 height: 500px;
 
@@ -29,7 +36,29 @@ background: radial-gradient(circle at center, #22366a 0%, #010b20 55%);
 background-size: 150% 150%;
 background-position: center;
 animation: latido 4s ease infinite;
+
+border-radius: 4%;
+box-shadow: -8px 8px 5px rgb(42, 46, 51);
 }
+
+.tarjeta2{
+
+width: 300px;
+height: 500px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+background: radial-gradient(circle at center, #521309 0%, #c01f14 55%);
+background-size: 150% 150%;
+background-position: center;
+animation: latido 4s ease infinite;
+
+border-radius: 4%;
+box-shadow: -8px 8px 5px rgb(42, 46, 51);
+}
+
 
 @keyframes latido {
     0% {

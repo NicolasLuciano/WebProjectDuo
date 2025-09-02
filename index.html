@@ -9,14 +9,15 @@
 
 <body>
     <header>
-        <nav>   
-            <ul>
-                <li><a href="index.html"><img src="corredores.png" alt="Home" class="menu"></a></li>
-                <li><select>
-                    <option><a href="windrunners.html">Windrunner</a></option>
-                    <option><a href="lightweavers.html">Lightweavers</a></option>
-                </select></li>
-            </ul>
+        <nav>
+            <a href="index.html"><img src="corredores.png" alt="Home" class="menu"></a>   
+            <select onchange="if (this.value) window.open(this.value, '_blank');">
+                <option>Elegi una orden..</option>
+                <option value="windrunners.html">Windrunner</option>
+                <option value="lightweavers.html">Lightweavers</option>
+            </select>
+                 
+              
         </nav>
     </header>
 
@@ -25,6 +26,11 @@
         <div class="tarjeta">
             <a href="windrunners.html">
                 <img src="corredores.png" alt="windrunner" class="windImg">
+            </a>
+        </div>
+        <div class="tarjeta2">
+            <a href="windrunners.html">
+                <img src="tejedores.png" alt="windrunner" class="windImg">
             </a>
         </div>
 
