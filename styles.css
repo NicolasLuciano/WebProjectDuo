@@ -88,6 +88,18 @@ nav {
 
 }
 
+.card::after {
+    content: "";
+    display: block;
+    width: 30vh;
+    height: 100%;
+    position: absolute;
+    top: -180 px;
+    left:  0;
+    background-color: #FFF;
+
+}
+
 #windrunner-card {
     background: linear-gradient(42deg, #8ba4e3 0%,#2b3b62 50%,#010714 100%);
     background-size: 400% 400%;
@@ -148,26 +160,13 @@ nav {
     display: block;
     margin: 0 auto;
     filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 1));
-    animation: beat 2s ease infinite;
     transition: 1.4s;
 }
 .cardImg:hover {
-    
     transform: scale(140%);
     transition: 1.4s;
 }
 
-@keyframes beat {
-    0% {
-        max-width: 80%;
-    }
-    50% {
-        max-width: 87%;
-    }
-    100%{
-        max-width: 80%;
-    }
-}
 
 .menuCont {
   display: inline-block;
