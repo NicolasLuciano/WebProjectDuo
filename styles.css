@@ -275,3 +275,28 @@ nav {
   text-decoration: none;
   padding: 8px;
 }
+
+.ornament1{
+    position: absolute;
+    max-height: 80%;
+    width: auto;
+    right: 90%;
+    
+}
+
+.ornament2{
+    position: absolute;
+    max-height: 80%;
+    width: auto;
+    left: 90%;
+    transform: rotate(180deg);
+    
+}
+
+.ornament3{
+    position: absolute;
+    max-width: 33%;
+    height: auto;
+    bottom: 96%;
+    
+}
