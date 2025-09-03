@@ -37,7 +37,6 @@ nav {
     align-items: center;
     width: 100%;
     position:fixed;
-    background-color: #d5bdaf;
     top: 0;
     left: 0;
     /*para arreglar la nav*/
@@ -274,7 +273,7 @@ nav {
 .menu-links {
   display: none;
   flex-direction: column;
-  background: #34434B;
+  background: #aa968b;
   padding: 10px;
   border-radius: 6px;
   position: absolute;
@@ -283,14 +282,14 @@ nav {
 }
 
 .menu-links a {
-  color: white;
+  color: #d6cec9;
   text-decoration: none;
   padding: 8px;
 }
 
 .ornament1{
     position: absolute;
-    max-height: 80%;
+    max-height: 70%;
     width: auto;
     right: 90%;
     
@@ -298,17 +297,8 @@ nav {
 
 .ornament2{
     position: absolute;
-    max-height: 80%;
+    max-height: 70%;
     width: auto;
     left: 90%;
-    transform: rotate(180deg);
-    
 }
 
-.ornament3{
-    position: absolute;
-    max-width: 33%;
-    height: auto;
-    bottom: 96%;
-    
-}
