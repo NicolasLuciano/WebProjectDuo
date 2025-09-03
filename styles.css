@@ -9,16 +9,10 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: medieval;
-    src: url(fonts/Metamorphous-Regular.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 body {
     margin: 0;
-    background-color: #F2F2F2;
+    background-color: #f5ebe0;
 }
 
 header{
@@ -31,12 +25,12 @@ nav {
     align-items: center;
     width: 100%;
     position:fixed;
-    background-color: #34434B;
+    background-color: #d5bdaf;
     top: 0;
     left: 0;
     /*para arreglar la nav*/
     height: var(--nav-h);
-    background: #34434B;
+    background: #aa968b;
     z-index: 1000;
 
 }
@@ -74,7 +68,8 @@ nav {
      flex: 1 1 100%;
     width: 90%;
     margin: 20px;
-    background-color: #E3DBC5;
+    background-color: #e3d5ca;
+    border-radius: 20px;
 }
 
 .card {
@@ -152,18 +147,24 @@ nav {
 
 #right-title {
     position: absolute;
-    bottom: 23%;
+    bottom: 18%;
     right: 36%;
     font-size:2.5vw;
-    font-family: medieval;
+    font-family: elegant;
     letter-spacing:1.5px;
 }
 
 #right-ideal {
     position: absolute;
-    bottom: 23%;
+    bottom: 17%;
     right: 36%;
     font-size: 1vw;
+}
+
+#rigt-ideal::after {
+    content: "";
+    display: block;
+    
 }
 
 #windrunner-card {
