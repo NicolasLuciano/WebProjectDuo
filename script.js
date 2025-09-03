@@ -32,7 +32,7 @@ const io = new IntersectionObserver((entries) => {
     }
   });
 }, {
-  threshold: 0.25,                   // 25% visible
+  threshold: 0.20,                   // 25% visible
   rootMargin: '-10% 0px -10% 0px'    // espera a que esté un poco centrado
 });
 
