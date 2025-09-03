@@ -9,6 +9,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: medieval;
+    src: url(fonts/Metamorphous-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 ::-webkit-scrollbar{
     width: 10px;
 }
@@ -69,13 +76,19 @@ footer p{
     color: #E9A319;
 
 }
-
 .imgMenu {
     box-sizing: border-box;
     max-width: 60px;
     height: auto;
     padding: 10%;
     margin-inline: 10px;
+}
+
+#title {
+    font-family: medieval;
+    font-size: 29px;
+    color: goldenrod;
+    text-shadow: -1px -1px 2px rgb(141, 140, 59), 1px 1px 2px black;
 }
 
 .selector {
