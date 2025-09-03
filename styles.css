@@ -2,6 +2,20 @@
     --nav-h: clamp(56px, 9vh, 80px);
 }
 
+@font-face {
+    font-family: elegant;
+    src: url(fonts/Quintessential-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: medieval;
+    src: url(fonts/Metamorphous-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     background-color: #E3DBC5;
@@ -54,6 +68,7 @@ nav {
 
 .cardBox {
     display: flex;
+    position: relative;
     justify-content: space-around;
     align-items: center;
      flex: 1 1 100%;
@@ -62,7 +77,7 @@ nav {
     background-color: rgba(0,0,0,0.2);
 }
 
-.card{
+.card {
     width: 30vh;
     height: 50vh;
     margin-top: 0.5%;
@@ -106,22 +121,6 @@ nav {
     -webkit-animation: reflect 3s ease-in-out infinite;
 }
 
-#left-title {
-    position: absolute;
-
-}
-#left-ideal {
-    position: absolute;
-}
-
-#right-title {
-    position: absolute;
-}
-
-#right-ideal {
-    position: absolute;
-}
-
 @keyframes reflect {
   0% { transform: scale(0) rotate(45deg); opacity: 0; }
   80% { transform: scale(0) rotate(45deg); opacity: 0.2; }
@@ -134,6 +133,37 @@ nav {
   80% { transform: scale(0) rotate(45deg); opacity: 0.2; }
   81% { transform: scale(4) rotate(45deg); opacity: 1; }
   100% { transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
+#left-title {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    font-size:2.5vw;
+    font-family: elegant;
+    letter-spacing:1.5px;
+}
+#left-ideal {
+    position: absolute;
+    top: 26%;
+    left: 35%;
+    font-size: 1vw;
+}
+
+#right-title {
+    position: absolute;
+    bottom: 23%;
+    right: 36%;
+    font-size:2.5vw;
+    font-family: medieval;
+    letter-spacing:1.5px;
+}
+
+#right-ideal {
+    position: absolute;
+    bottom: 23%;
+    right: 36%;
+    font-size: 1vw;
 }
 
 #windrunner-card {
