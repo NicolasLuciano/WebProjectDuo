@@ -163,6 +163,7 @@ nav {
     font-size:2.5vw;
     font-family: elegant;
     letter-spacing:1.5px;
+
 }
 
 #right-ideal {
@@ -172,10 +173,38 @@ nav {
     font-size: 1vw;
 }
 
-#rigt-ideal::after {
+#right-title::after {
     content: "";
-    display: block;
+    display: inline-block;
+
+    background-image: url(imagenes/espadaRotada.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90%;
+    width:100%;
+
+    position: absolute;
+    top: 50%;
+    left: 100%;              /* justo afuera, a la izquierda del padre */
+    transform: translateY(-50%);
+    margin-left: 8px;
+    margin-top: 20px;
     
+    
+}
+
+#left-title::after {
+    content: "";
+    display: inline-block;
+    background-image: url(imagenes/espada.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 100%;
+
+    position: absolute;
+    left: -1.4vw;
+    top: 1vw;
 }
 
 #windrunner-card {
