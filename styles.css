@@ -72,7 +72,7 @@ nav {
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
 
     background-position: 0% 50%;
     animation: shadow-gradient 7s ease infinite;
@@ -104,6 +104,22 @@ nav {
     animation: reflect 3s ease-in-out infinite;
     -webkit-transform: rotate(45deg);
     -webkit-animation: reflect 3s ease-in-out infinite;
+}
+
+#left-title {
+    position: absolute;
+
+}
+#left-ideal {
+    position: absolute;
+}
+
+#right-title {
+    position: absolute;
+}
+
+#right-ideal {
+    position: absolute;
 }
 
 @keyframes reflect {
