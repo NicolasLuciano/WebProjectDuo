@@ -106,7 +106,10 @@ footer p{
     align-items: center;
     margin-inline: 100px;
     flex-wrap: wrap;
+    margin-top: 20vh;
 }
+
+
 
 .cardBox {
     display: flex;
@@ -118,6 +121,19 @@ footer p{
     margin: 20px;
     background-color: #e3d5ca;
     border-radius: 20px;
+
+    opacity: 0;
+    transition: opacity .7s ease, transform .7s ease;
+    will-change: opacity, transform;
+   
+}
+
+.cardBox.from-left  { transform: translateX(-40px); }
+.cardBox.from-right { transform: translateX( 40px); }
+
+.cardBox.in {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .card {

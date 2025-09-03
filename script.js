@@ -20,3 +20,20 @@ let lastScroll = 0;
 
       lastScroll = currentScroll;
     });
+
+const items = document.querySelectorAll('.cardBox');
+
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in');      // entra => animar
+    } else {
+      entry.target.classList.remove('in');   // sale => resetear (para repetir)
+    }
+  });
+}, {
+  threshold: 0.25,                   // 25% visible
+  rootMargin: '-10% 0px -10% 0px'    // espera a que esté un poco centrado
+});
+
+items.forEach(el => io.observe(el));
